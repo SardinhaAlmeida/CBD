@@ -1,0 +1,113 @@
+Your current products: 
+Document{{_id=aoki, products=[]}}
+Your current products: 
+Document{{_id=sara, products=[banana]}}
+Your current products: 
+Document{{_id=sara, products=[banana]}}
+Document{{_id=aoki, products=[camisola]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café]}}
+Document{{_id=aoki, products=[camisola]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café]}}
+Document{{_id=aoki, products=[camisola, calças]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café, pão]}}
+Document{{_id=aoki, products=[camisola, calças]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café, pão]}}
+Document{{_id=aoki, products=[camisola, calças, casaco]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café, pão, leite]}}
+Document{{_id=aoki, products=[camisola, calças, casaco]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café, pão, leite]}}
+Document{{_id=aoki, products=[camisola, calças, casaco, ténis]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café, pão, leite, arroz]}}
+Document{{_id=aoki, products=[camisola, calças, casaco, ténis]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café, pão, leite, arroz]}}
+Document{{_id=aoki, products=[camisola, calças, casaco, ténis, sapatilhas]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café, pão, leite, arroz, feijão]}}
+Document{{_id=aoki, products=[camisola, calças, casaco, ténis, sapatilhas]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café, pão, leite, arroz, feijão]}}
+Document{{_id=aoki, products=[camisola, calças, casaco, ténis, sapatilhas, meias]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café, pão, leite, arroz, feijão, carne]}}
+Document{{_id=aoki, products=[camisola, calças, casaco, ténis, sapatilhas, meias]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café, pão, leite, arroz, feijão, carne]}}
+Document{{_id=aoki, products=[camisola, calças, casaco, ténis, sapatilhas, meias, boné]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café, pão, leite, arroz, feijão, carne, peixe]}}
+Document{{_id=aoki, products=[camisola, calças, casaco, ténis, sapatilhas, meias, boné]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café, pão, leite, arroz, feijão, carne, peixe]}}
+Document{{_id=aoki, products=[camisola, calças, casaco, ténis, sapatilhas, meias, boné, chapéu]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café, pão, leite, arroz, feijão, carne, peixe, batata]}}
+Document{{_id=aoki, products=[camisola, calças, casaco, ténis, sapatilhas, meias, boné, chapéu]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café, pão, leite, arroz, feijão, carne, peixe, batata]}}
+Document{{_id=aoki, products=[camisola, calças, casaco, ténis, sapatilhas, meias, boné, chapéu, camisa]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café, pão, leite, arroz, feijão, carne, peixe, batata, tomate]}}
+Document{{_id=aoki, products=[camisola, calças, casaco, ténis, sapatilhas, meias, boné, chapéu, camisa]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café, pão, leite, arroz, feijão, carne, peixe, batata, tomate]}}
+Document{{_id=aoki, products=[camisola, calças, casaco, ténis, sapatilhas, meias, boné, chapéu, camisa, gravata]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café, pão, leite, arroz, feijão, carne, peixe, batata, tomate, alface]}}
+Document{{_id=aoki, products=[camisola, calças, casaco, ténis, sapatilhas, meias, boné, chapéu, camisa, gravata]}}
+sara, you can't ordered more than 10 products! You have to wait a little longer.
+aoki, you can't ordered more than 10 products! You have to wait a little longer.
+Your current products: 
+Document{{_id=aoki, products=[cinto]}}
+Your current products: 
+Document{{_id=sara, products=[maçã]}}
+Your current products: 
+Document{{_id=aoki, products=[fato]}}
+Document{{_id=sara, products=[maçã]}}
+Your current products: 
+Document{{_id=aoki, products=[fato]}}
+Document{{_id=sara, products=[maçã, laranja]}}
+Your current products: 
+Document{{_id=aoki, products=[fato, vestido]}}
+Document{{_id=sara, products=[maçã, laranja]}}
+Your current products: 
+Document{{_id=aoki, products=[fato, vestido]}}
+Document{{_id=sara, products=[maçã, laranja, uva]}}
+Your current products: 
+Document{{_id=aoki, products=[fato, vestido, saia]}}
+Document{{_id=sara, products=[maçã, laranja, uva]}}
+Your current products: 
+Document{{_id=aoki, products=[fato, vestido, saia]}}
+Document{{_id=sara, products=[maçã, laranja, uva, morango]}}
+Your current products: 
+Document{{_id=aoki, products=[fato, vestido, saia, botas]}}
+Document{{_id=sara, products=[maçã, laranja, uva, morango]}}
+Your current products: 
+Document{{_id=aoki, products=[fato, vestido, saia, botas]}}
+Document{{_id=sara, products=[maçã, laranja, uva, morango, pêssego]}}
+Your current products: 
+Document{{_id=aoki, products=[fato, vestido, saia, botas, sandálias]}}
+Document{{_id=sara, products=[maçã, laranja, uva, morango, pêssego]}}
+Your current products: 
+Document{{_id=aoki, products=[fato, vestido, saia, botas, sandálias]}}
+Document{{_id=sara, products=[maçã, laranja, uva, morango, pêssego, pêra]}}
+Your current products: 
+Document{{_id=aoki, products=[fato, vestido, saia, botas, sandálias, pulseira]}}
+Document{{_id=sara, products=[maçã, laranja, uva, morango, pêssego, pêra]}}
+Your current products: 
+Document{{_id=aoki, products=[fato, vestido, saia, botas, sandálias, pulseira]}}
+Document{{_id=sara, products=[maçã, laranja, uva, morango, pêssego, pêra, abacate]}}
+Your current products: 
+Document{{_id=aoki, products=[fato, vestido, saia, botas, sandálias, pulseira, colar]}}
+Document{{_id=sara, products=[maçã, laranja, uva, morango, pêssego, pêra, abacate]}}
+Your current products: 
+Document{{_id=aoki, products=[fato, vestido, saia, botas, sandálias, pulseira, colar]}}
+Document{{_id=sara, products=[maçã, laranja, uva, morango, pêssego, pêra, abacate, abacaxi]}}
+Total time: 11 seconds

@@ -1,0 +1,15 @@
+set key1 "hello world"
+set key2 "software"
+strlen key2
+mget key1 key2
+copy key1 newkey
+get newkey
+sadd key3 "bla bla bla"
+type key3
+sadd key4 "5"
+sadd key5 "5"
+sinterstore randomkey1 key3 key4
+sinterstore randomkey2 key4 key5
+smembers randomkey1
+smembers randomkey2
+randomkey

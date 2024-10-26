@@ -1,0 +1,39 @@
+Your current products: 
+Document{{_id=aoki, products=[], quantity=[0]}}
+Document{{_id=sara, products=[banana], quantity=[3]}}
+Your current products: 
+Document{{_id=aoki, products=[camisola], quantity=[5]}}
+Document{{_id=sara, products=[banana], quantity=[3]}}
+Your current products: 
+Document{{_id=sara, products=[banana, café], quantity=[3, 4]}}
+Document{{_id=aoki, products=[camisola], quantity=[5]}}
+Your current products: 
+Document{{_id=aoki, products=[camisola, calças], quantity=[5, 5]}}
+Document{{_id=sara, products=[banana, café], quantity=[3, 4]}}
+Your current products: 
+Document{{_id=aoki, products=[camisola, calças], quantity=[5, 5]}}
+Document{{_id=sara, products=[banana, café, pão], quantity=[3, 4, 2]}}
+aoki, you can't ordered more than 10 products! You have to wait a little longer.
+Your current products: 
+Document{{_id=sara, products=[banana, café, pão], quantity=[3, 4, 2]}}
+Document{{_id=aoki, products=[camisola, calças, casaco], quantity=[5, 5, 3]}}
+Your current products: 
+Document{{_id=aoki, products=[camisola, calças, casaco], quantity=[5, 5, 3]}}
+Document{{_id=sara, products=[leite], quantity=[1]}}
+Your current products: 
+Document{{_id=sara, products=[leite], quantity=[1]}}
+Document{{_id=aoki, products=[ténis], quantity=[2]}}
+Your current products: 
+Document{{_id=aoki, products=[ténis], quantity=[2]}}
+Document{{_id=sara, products=[leite, arroz], quantity=[1, 7]}}
+Your current products: 
+Document{{_id=sara, products=[leite, arroz], quantity=[1, 7]}}
+Document{{_id=aoki, products=[ténis, sapatilhas], quantity=[2, 5]}}
+sara, you can't ordered more than 10 products! You have to wait a little longer.
+Your current products: 
+Document{{_id=sara, products=[leite, arroz, feijão], quantity=[1, 7, 5]}}
+Document{{_id=aoki, products=[ténis, sapatilhas], quantity=[2, 5]}}
+Your current products: 
+Document{{_id=aoki, products=[ténis, sapatilhas, meias], quantity=[2, 5, 1]}}
+Document{{_id=sara, products=[leite, arroz, feijão], quantity=[1, 7, 5]}}
+Total time: 15 seconds

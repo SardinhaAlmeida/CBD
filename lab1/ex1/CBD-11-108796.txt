@@ -1,0 +1,53 @@
+ping
+set mykey somevalue
+get mykey
+ping
+shutdown
+redis-cli
+shutdown
+redis-cli shutdown
+shutdown
+flushdb
+ping
+redis-cli shutdown
+shutdown
+redis-cli shutdown
+shutdown
+FLUSHALL
+shutdown
+acl cat
+acl deluser 
+acl dryrun
+acl getuser
+acl users
+acl dryrun default acl deluser
+acl dryrun default acl deluser default
+acl users
+bf.exists 
+client list
+client id
+client getname
+client info
+command
+command count
+command docs
+command getkeysandflags getdel
+command getkeysandflags copy 1
+command getkeysandflags copy 1 2
+echo ola
+EVAL "return ARGV[1]" 0 hello
+exec
+function list
+hello
+lcs key1 olatudobem key2 tudobemadeus
+mset key1 olatudobem key2 tudobemadeus
+lcs key1 key2
+lolwut 7.2.1
+memory stats
+role
+set oi "akldjajsldjasld"
+strlen oi
+set ola "123"
+sunion oi ola
+time
+quit

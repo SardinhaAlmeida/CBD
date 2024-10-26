@@ -1,0 +1,178 @@
+____________________Alínea a____________________
+
+------------Inserção e pesquisa------------
+{"_id": {"$oid": "652ed78402c2f551b8447373"}, "address": {"building": "182", "coord": [40.574734, -8.443685], "rua": "Av. 10 de Junho ", "zipcode": "3660-261"}, "localidade": "Santa Cruz da Trapa", "gastronomia": "Portuguesa", "grades": {"date": {"$date": 1409616000000}, "grade": "A", "score": 12}, "nome": "Manjar das Letras", "restaurant_id": "5000123"}
+
+------------Edição e pesquisa------------
+{"_id": {"$oid": "652ed78402c2f551b8447373"}, "address": {"building": "182", "coord": [40.574734, -8.443685], "rua": "Av. 10 de Junho ", "zipcode": "3660-261"}, "localidade": "Santa Cruz da Trapa", "gastronomia": "Portuguesa", "grades": {"date": {"$date": 1409616000000}, "grade": "A", "score": 17}, "nome": "Manjar das Letras", "restaurant_id": "5000123"}
+
+
+____________________Alínea b____________________
+
+Tempo de pesquisa sem index - localidade: 0ms
+Tempo de pesquisa com index - localidade: 0ms
+Tempo de pesquisa sem index - gastronomia: 0ms
+Tempo de pesquisa com index - gastronomia: 0ms
+Tempo de pesquisa sem index - nome: 0ms
+Tempo de pesquisa com index - nome: 0ms
+
+____________________Alínea c____________________
+
+------------6. Restaurantes com pelo menos um score superior a 85------------
+
+{"_id": {"$oid": "651b4ad8ca276e6851566b63"}, "address": {"building": "65", "coord": [-73.9782725, 40.7624022], "rua": "West   54 Street", "zipcode": "10019"}, "localidade": "Manhattan", "gastronomia": "American", "grades": [{"date": {"$date": "2014-08-22T00:00:00Z"}, "grade": "A", "score": 11}, {"date": {"$date": "2014-03-28T00:00:00Z"}, "grade": "C", "score": 131}, {"date": {"$date": "2013-09-25T00:00:00Z"}, "grade": "A", "score": 11}, {"date": {"$date": "2013-04-08T00:00:00Z"}, "grade": "B", "score": 25}, {"date": {"$date": "2012-10-15T00:00:00Z"}, "grade": "A", "score": 11}, {"date": {"$date": "2011-10-19T00:00:00Z"}, "grade": "A", "score": 13}], "nome": "Murals On 54/Randolphs'S", "restaurant_id": "40372466"}
+{"_id": {"$oid": "651b4ad8ca276e6851566c04"}, "address": {"building": "345", "coord": [-73.9864626, 40.7266739], "rua": "East 6 Street", "zipcode": "10003"}, "localidade": "Manhattan", "gastronomia": "Indian", "grades": [{"date": {"$date": "2014-09-15T00:00:00Z"}, "grade": "A", "score": 5}, {"date": {"$date": "2014-01-14T00:00:00Z"}, "grade": "A", "score": 8}, {"date": {"$date": "2013-05-30T00:00:00Z"}, "grade": "A", "score": 12}, {"date": {"$date": "2013-04-24T00:00:00Z"}, "grade": "P", "score": 2}, {"date": {"$date": "2012-10-01T00:00:00Z"}, "grade": "A", "score": 9}, {"date": {"$date": "2012-04-06T00:00:00Z"}, "grade": "C", "score": 92}, {"date": {"$date": "2011-11-03T00:00:00Z"}, "grade": "C", "score": 41}], "nome": "Gandhi", "restaurant_id": "40381295"}
+{"_id": {"$oid": "651b4ad8ca276e6851566d64"}, "address": {"building": "130", "coord": [-73.984758, 40.7457939], "rua": "Madison Avenue", "zipcode": "10016"}, "localidade": "Manhattan", "gastronomia": "Pizza/Italian", "grades": [{"date": {"$date": "2014-12-24T00:00:00Z"}, "grade": "Z", "score": 31}, {"date": {"$date": "2014-06-17T00:00:00Z"}, "grade": "C", "score": 98}, {"date": {"$date": "2013-12-12T00:00:00Z"}, "grade": "C", "score": 32}, {"date": {"$date": "2013-05-22T00:00:00Z"}, "grade": "B", "score": 21}, {"date": {"$date": "2012-05-02T00:00:00Z"}, "grade": "A", "score": 11}], "nome": "Bella Napoli", "restaurant_id": "40393488"}
+{"_id": {"$oid": "651b4ad8ca276e68515675d0"}, "address": {"building": "", "coord": [-74.0163793, 40.7167671], "rua": "Hudson River", "zipcode": "10282"}, "localidade": "Manhattan", "gastronomia": "American", "grades": [{"date": {"$date": "2014-06-27T00:00:00Z"}, "grade": "C", "score": 89}, {"date": {"$date": "2013-06-06T00:00:00Z"}, "grade": "A", "score": 6}, {"date": {"$date": "2012-06-19T00:00:00Z"}, "grade": "A", "score": 13}], "nome": "West 79Th Street Boat Basin Cafe", "restaurant_id": "40756344"}
+
+------------11. Restaurantes do Bronx com gastronomia American ou Chinese------------
+
+{"localidade": "Bronx", "gastronomia": "Chinese", "nome": "Happy Garden"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Wild Asia"}
+{"localidade": "Bronx", "gastronomia": "Chinese", "nome": "Happy Garden"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Manhem Club"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "The New Starling Athletic Club Of The Bronx"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Yankee Tavern"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "The Punch Bowl"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Munchtime"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Marina Delray"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Beaver Pond"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "African Market (Baboon Cafe)"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Cool Zone"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Blue Bay Restaurant"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Bronx Grill"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "P & K'S Grill"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "John Mulligan'S Fireside Pub"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Quality Cafe & Restaurant"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Riverdale Diner"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Castlehill Diner"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Short Stop Restaurant"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Burger Barn Restaurant"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Eastwood Manor"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Walnut Bus Stop"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Villa Barone Manor"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Gleason'S Cafe"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Fordham Seafood And Chicken"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Gun Post Lanes Snack Bar"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "O'Brien'S Pub"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Tibbett Diner"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Wembley Athletic Club"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Cullen'S Tavern"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Celeste'S Snack Bar"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Pelham Bay Diner"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Riverdale Yacht Club"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Stuyvesant Yacht Club"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Ambassador Diner"}
+{"localidade": "Bronx", "gastronomia": "Chinese", "nome": "China Wok Ii"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Woodlawn Cafe"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Crown Diner"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Crosstown Diner"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Jimmy Ryan'S"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Park Billiards"}
+{"localidade": "Bronx", "gastronomia": "Chinese", "nome": "Dragon City"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Bowler Land"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Louie'Sdale Diner"}
+{"localidade": "Bronx", "gastronomia": "Chinese", "nome": "Hunan Balcony"}
+{"localidade": "Bronx", "gastronomia": "Chinese", "nome": "Great Wall Restaurant"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Keenans"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Glen Roy Bar And Grill"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "An Beal Bocht Cafe"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Archer Sports Bar"}
+{"localidade": "Bronx", "gastronomia": "Chinese", "nome": "Lucky House Restaurant"}
+{"localidade": "Bronx", "gastronomia": "Chinese", "nome": "New Wah Kitchen"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Cafe Lou'S"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Throgs Neck Clipper"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "New Capital Restaurant"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "City Island Diner /Snug Bar"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "P.J. Brady'S Tavern"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Bedford Cafe & Restaurant"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Webster Cafe"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Billy'S Sport Bar Restaurant & Lounge"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Market Restaurant (C-D Block)"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Fella'S Bar"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "J.R'S Cabaret"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Snack Bar (Located Between A-B Between Fancy Food And Masters)"}
+{"localidade": "Bronx", "gastronomia": "Chinese", "nome": "New Hing Restaurant"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Prospect Coffee Shop"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Jolly Tinker"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Nonis Coffee Shop"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Blue Diner"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Applebee'S Neighborhood Grill & Bar"}
+{"localidade": "Bronx", "gastronomia": "Chinese", "nome": "Hong Kong Restaurant"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Dancing Crane Cafe (Bx Zoo)"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Section 5 Pizza Restaurant"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Step In Restaurant & Lounge"}
+{"localidade": "Bronx", "gastronomia": "Chinese", "nome": "Kristy'S Restaurant"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Shore Haven Diner"}
+{"localidade": "Bronx", "gastronomia": "Chinese", "nome": "East Dynasty"}
+{"localidade": "Bronx", "gastronomia": "Chinese", "nome": "Lin Home Chinese Restaura"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "To Go Express"}
+{"localidade": "Bronx", "gastronomia": "Chinese", "nome": "Peacock Restaurant"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Vivienne'S"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "The Williamsbridge Tavern"}
+{"localidade": "Bronx", "gastronomia": "Chinese", "nome": "Lin'S Garden"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Casa Promesa"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Mr Mcgoo'S"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Fordham University/Mcginley Center/Ramskeller Kitchen"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Fordham University - Mcginley Center"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Fordham University - Millenium Grill"}
+{"localidade": "Bronx", "gastronomia": "American", "nome": "Mug-Z'S Sports Bar"}
+{"localidade": "Bronx", "gastronomia": "Chinese", "nome": "New Rainbow Restaurant"}
+
+------------13. Restaurantes com score inferior ou igual a 3------------
+
+{"localidade": "Brooklyn", "gastronomia": "Hamburgers", "grades": [{"score": 2}, {"score": 3}, {"score": 0}], "nome": "White Castle"}
+{"localidade": "Manhattan", "gastronomia": "Café/Coffee/Tea", "grades": [{"score": 2}, {"score": 2}, {"score": 2}, {"score": 2}], "nome": "Cafe Madison"}
+{"localidade": "Manhattan", "gastronomia": "American", "grades": [{"score": 0}, {"score": 3}, {"score": 2}], "nome": "Citibank Executive Conference Center"}
+{"localidade": "Manhattan", "gastronomia": "American", "grades": [{"score": 3}, {"score": 2}, {"score": 2}, {"score": 0}], "nome": "Kenyon & Kenyon Cafeteria"}
+{"localidade": "Manhattan", "gastronomia": "American", "grades": [{"score": 2}, {"score": 0}], "nome": "Gold Bar B"}
+{"localidade": "Manhattan", "gastronomia": "American", "grades": [{"score": 0}, {"score": 0}, {"score": 2}], "nome": "Circle In The Square Theatre"}
+{"localidade": "Brooklyn", "gastronomia": "American", "grades": [{"score": 3}], "nome": "Stand # 210"}
+
+------------20. 3 restaurantes com mais avaliações------------
+
+{"_id": "Starbucks Coffee", "numGrades": 424}
+{"_id": "Mcdonald'S", "numGrades": 385}
+{"_id": "Domino'S Pizza", "numGrades": 185}
+
+------------24. Número de gastronomias diferentes na rua Fifth Avenue------------
+
+{"_id": null, "count": 4}
+
+____________________Alínea d____________________
+
+Número de localidades distintas:5
+
+Numero de restaurantes por localidade:
+ -> Queens - 738
+ -> Staten Island - 158
+ -> Manhattan - 1883
+ -> Brooklyn - 684
+ -> Bronx - 309
+
+Nome de restaurantes contendo 'Park' no nome:
+ -> Morris Park Bake Shop
+ -> New Park Pizzeria & Restaurant
+ -> Parkside Restaurant
+ -> New Parkway Restaurant
+ -> Park Plaza Restaurant
+ -> Pizza Park
+ -> Rego Park Cafe
+ -> Park Billiards
+ -> Dyker Park Bagels
+ -> Nora'S Park Bench Cafe
+ -> Forest Park Golf Course
+ -> Park Italian Gourment
+ -> Whiskey Park
+ -> Terrace On The Park
+ -> Gigino At Wagner Park
+ -> Park Slope Ale House
+ -> Park Bar
+ -> Tribeca Park Cafe
+ -> Morris Park Pizza
+ -> The Hallmark Of Battery Park City- Dining Room
+ -> The Park
+ -> Central Park Boathouse
+ -> The Park Slope Chipshop
+ -> Sunset Park Diner & Donuts
+ -> Park'S Snack

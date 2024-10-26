@@ -1,0 +1,99 @@
+Search for ('Enter' to quit): sa
+Santiago     (2084)
+Salvador     (831)
+Sara         (415)
+Samuel       (179)
+Sandro       (37)
+Samira       (35)
+Safira       (28)
+Sandra       (12)
+Samanta      (11)
+Samara       (8)
+Salomão      (6)
+Samir        (5)
+Saúl         (4)
+Sancho       (3)
+Samantha     (2)
+Sadjo        (1)
+Search for ('Enter' to quit): al
+Alice        (661)
+Alexandre    (273)
+Alícia       (183)
+Alexandra    (75)
+Alex         (35)
+Aline        (32)
+Alana        (24)
+Aléxia       (14)
+Alexandru    (11)
+Alicia       (9)
+Alonso       (8)
+Alexa        (7)
+Alexandro    (6)
+Alessia      (5)
+Alyssa       (4)
+Aliça        (3)
+Alycia       (2)
+Alcilane     (1)
+-------------------------------
+Search for ('Enter' to quit): mar 
+Maria
+Martim
+Mariana
+Margarida
+Mara
+Marta
+Marco
+Marcelo
+Martinho
+Marisa
+Martin
+Marina
+Martina
+Mark
+Maryam
+Marlon
+Martín
+Marley
+Marcel
+Maryon
+Search for ('Enter' to quit): lua
+Luana
+Luan
+Lua
+Luara
+Luai
+Search for ('Enter' to quit): joaq
+Joaquim
+Joaquina
+Search for ('Enter' to quit): and
+André
+Andreia
+Andrei
+Anderson
+Andreea
+Andra
+Andrs
+Search for ('Enter' to quit): ant
+António
+Antónia
+Antonio
+Anthony
+Antonia
+Antonela
+Search for ('Enter' to quit): car
+Carolina
+Carlota
+Carminho
+Carlos
+Carla
+Carmo
+Carina
+Carmen
+Carol
+Carlo
+Search for ('Enter' to quit): rafae
+Rafael
+Rafaela
+Rafaella
+Rafaello
+Search for ('Enter' to quit):

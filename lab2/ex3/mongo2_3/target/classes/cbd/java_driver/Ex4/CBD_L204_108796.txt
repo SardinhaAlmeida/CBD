@@ -1,0 +1,37 @@
+-Começo por delinear as diferenças gerais entre Redis e MongoDB.
+
+Quanto ao modelo de dados, o redis assenta sobre dados chave-valor, sendo por isso mais adequando para armazenar esse tipo de dados em memória.
+Já o MongoDB armazena dados em documentos Bson, sendo assim mais flexível e permitindo armazenar dados mais complexos.
+
+Redis é mais frequentemente usado como mecanismo de armazenamento em cache para dados temporários rápidos, ao contrário do MongoDB que é usado para armazenar dados mais complexos, como dito anteriormente, e permanentes.
+
+Quanto ao desempenho, o Redis é extremamente mais rápido devido ao seu mecanismo de armazenamento em memória o que resulta em tempos de resposta baixos. Já o MongoDB não é tão rápido.
+
+Em termos de escalabilidade, o Redis escala facilmente enquanto que o MongoDB necessita de ser bem estruturado para tal.
+
+O MongoDB oferece mais consistência que o Redis.
+
+
+-Prós e Contras:
+
+*Redis:
+    -Prós: Muito rápido, baixa latência, escalável
+    -Contras: Mau para armazenar grandes volumes de dados permanentes, pouca durabilidade geralmente
+
+*MongoDB: 
+    -Prós: Suporta dados complexos e permanentes, e consultas avançadas
+    -Contras: Mais lento, requer mais configurações.
+
+
+-Quanto à resolução dos exercícios:
+
+A implementação em MongoDB requer mais tempo e cuidado, pois para este exercício em específico o Redis tem funções bastante úteis.
+Comparando ambos, utilizando a mesma main e o mesmo raciocínio, os exercícios resolvidos em Redis apresentaram melhor desempenho:
+* Alínea a: 
+    -em Redis:5 segundos
+    -em MongoDB:11 segundos
+*Alínea b:
+    -em Redis:15 segundos
+    -em MongoDB:15 segundos
+
+No entanto, estes resultados mostram-se para este exercício pois foram usados poucos dados.

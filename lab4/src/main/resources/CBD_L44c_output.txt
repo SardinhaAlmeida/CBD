@@ -1,0 +1,170 @@
+#1: Lista de post e seus comentários
+p.post_id:1 , comments:['Consequatur tenetur assumenda eius et quam quibusdam soluta voluptatibus.']
+p.post_id:3 , comments:['Molestiae sequi cum consequuntur suscipit suscipit aperiam quidem sed.']
+p.post_id:4 , comments:['Aspernatur tenetur animi eligendi totam aperiam qui recusandae dolorum.']
+p.post_id:5 , comments:['Repudiandae iure illo atque dolores saepe sed.']
+p.post_id:6 , comments:['Quidem quam quam rerum sunt porro laborum nam occaecati harum.', 'Et nam accusantium reiciendis quaerat praesentium.']
+p.post_id:7 , comments:['Itaque totam repudiandae minus molestias hic ab iusto autem beatae.']
+p.post_id:8 , comments:['Iusto et excepturi distinctio reprehenderit.']
+p.post_id:9 , comments:['Repudiandae veniam sapiente minima necessitatibus sapiente iste ipsam aperiam.']
+p.post_id:10 , comments:['Quos beatae laborum.']
+p.post_id:15 , comments:['Cumque autem est fuga repudiandae.', 'Rem ullam fuga.']
+p.post_id:16 , comments:['Reiciendis possimus odit dolores exercitationem cumque quibusdam mollitia.']
+p.post_id:17 , comments:['Possimus id minima maxime.']
+p.post_id:18 , comments:['Dolor iure facilis expedita tenetur rem facere.']
+p.post_id:19 , comments:['Eos eos eaque id rerum expedita.']
+p.post_id:22 , comments:['Tempora atque officia eum eveniet debitis quia nihil occaecati.', 'Blanditiis libero placeat.', 'Officia nihil quia minima.']
+p.post_id:23 , comments:['Amet quos inventore id earum quia nostrum in voluptate.']
+p.post_id:24 , comments:['Fuga quaerat neque doloribus ad tempora.']
+p.post_id:25 , comments:['Adipisci necessitatibus nam labore laborum enim molestias.', 'Eum exercitationem similique repellat quis natus iste similique.', 'Expedita repellat aut.']
+p.post_id:28 , comments:['Cum soluta nisi voluptatem commodi qui aliquam neque dolores laborum.']
+p.post_id:29 , comments:['Nobis quas eligendi praesentium aperiam vero unde nulla.']
+p.post_id:30 , comments:['Debitis optio accusamus laboriosam.']
+p.post_id:31 , comments:['Sunt quae officiis autem odit.']
+p.post_id:32 , comments:['Minima nulla aperiam commodi.']
+p.post_id:33 , comments:['Quibusdam non necessitatibus voluptatum cupiditate eum sit amet.', 'Occaecati sequi non tempore similique quibusdam maxime.']
+p.post_id:35 , comments:['Quos officiis placeat provident voluptate.', 'Nostrum nihil error suscipit laborum.', 'Quos eum omnis.', 'Architecto cupiditate in commodi distinctio placeat aperiam.']
+p.post_id:36 , comments:['Sit molestiae occaecati dolorum hic similique perferendis iste ad.', 'Eum molestiae ipsa aperiam.']
+p.post_id:42 , comments:['Unde deserunt nobis possimus corrupti.', 'Tempore accusamus quam veniam fugiat rerum facilis.', 'Quisquam commodi ipsum cum.', 'Iste sunt dolorum.']
+p.post_id:43 , comments:['Recusandae nostrum facilis officia adipisci repellendus.', 'Illum quasi eveniet totam vero.', 'Explicabo excepturi ipsa quo.', 'Ipsam porro doloremque culpa necessitatibus esse.']
+p.post_id:44 , comments:['Similique itaque ratione natus.', 'Quae impedit iure mollitia incidunt nemo dolore ipsam libero.']
+p.post_id:46 , comments:['Temporibus neque molestiae explicabo odit.', 'Labore minus ad illum ipsum quae.']
+p.post_id:47 , comments:['Vero sunt fugiat accusamus suscipit.']
+p.post_id:48 , comments:['Enim modi omnis et.', 'Ullam asperiores ex ipsam quas hic nisi corporis a.']
+p.post_id:50 , comments:['Exercitationem esse repellat ducimus magnam iusto veritatis accusantium at eos.', 'Aspernatur voluptate ex a.']
+p.post_id:51 , comments:['Delectus nemo voluptatum.', 'Vero nulla iste officia odit similique deserunt neque quidem totam.', 'Doloremque impedit enim cupiditate vitae maiores at.']
+p.post_id:52 , comments:['Quis esse itaque recusandae neque fuga explicabo beatae numquam.']
+p.post_id:53 , comments:['Earum eveniet dicta non non ipsa magni repellendus.', 'Maxime nesciunt molestiae voluptatem aliquam laudantium.']
+p.post_id:56 , comments:['Quae mollitia voluptatem repellat perspiciatis facere fugiat harum qui autem.']
+p.post_id:57 , comments:['Pariatur ad distinctio laborum illum dolores odit dignissimos odio.']
+p.post_id:58 , comments:['Dicta ratione quod quos alias nihil exercitationem totam ipsa.', 'Fuga commodi laboriosam suscipit earum consequuntur ratione ad minima fuga.', 'Facilis hic beatae assumenda corrupti aliquid qui quas.', 'Fugit est atque dignissimos nemo id quaerat officiis.', 'Atque in facere dolor.']
+p.post_id:61 , comments:['Quo dicta optio occaecati distinctio quod provident.']
+p.post_id:65 , comments:['Consequuntur eveniet amet aliquam commodi placeat dolores labore perferendis.', 'Hic autem laudantium.']
+p.post_id:67 , comments:['Consectetur voluptatem provident magni velit nostrum pariatur.']
+p.post_id:69 , comments:['Vel aut numquam dolorem eaque beatae animi.']
+p.post_id:70 , comments:['Ducimus facere odit ullam vel facilis optio debitis debitis vero.']
+p.post_id:72 , comments:['Dolores expedita doloribus ab repellat minus delectus numquam laboriosam reiciendis.', 'Nesciunt eius error occaecati unde similique magnam exercitationem pariatur consequatur.']
+p.post_id:73 , comments:['Deserunt beatae molestiae.', 'Culpa voluptatum dolorem aperiam dolores a delectus.']
+p.post_id:74 , comments:['Impedit eos ab iure odit.']
+p.post_id:76 , comments:['Repellendus neque natus delectus eius doloremque mollitia error minus.', 'Minima dignissimos cumque necessitatibus.']
+p.post_id:78 , comments:['Fugiat rerum delectus voluptatum occaecati consectetur aliquam dolorem distinctio minima.', 'Modi repellendus quam.']
+p.post_id:79 , comments:['Sapiente nisi soluta molestias repellat earum vel tenetur iste dignissimos.', 'Possimus dicta dolore repudiandae.']
+p.post_id:81 , comments:['Sequi facere ipsum minus totam doloribus provident hic id facilis.']
+p.post_id:84 , comments:['Dolorem assumenda nulla iure delectus recusandae deserunt ex.']
+p.post_id:85 , comments:['Reprehenderit minima alias sed ipsum voluptas doloribus.', 'Repellat molestiae quos ex vel saepe minima fugiat.']
+p.post_id:87 , comments:['Error et atque accusamus quae cum.']
+p.post_id:90 , comments:['Dolorum quas in veniam earum.']
+p.post_id:91 , comments:['Nobis nisi consequuntur nulla nostrum labore beatae sequi molestiae assumenda.']
+p.post_id:93 , comments:['Tenetur nulla ullam esse modi.', 'Incidunt dolor recusandae voluptates magni ipsa magni asperiores suscipit.']
+p.post_id:97 , comments:['Inventore voluptate eveniet soluta nulla ut totam quisquam culpa.', 'Impedit nisi eaque ipsum necessitatibus sapiente unde.']
+p.post_id:99 , comments:['Repellat dolorem officiis.', 'Beatae pariatur eligendi.', 'Sed dolor velit quod laudantium quasi quae optio dolorum laudantium.']
+
+#2: Lista dos users que comentaram o post do user com user_id=134
+p.post_id:58 , c.comment:'Dicta ratione quod quos alias nihil exercitationem totam ipsa.' , u.name:Samantha
+p.post_id:58 , c.comment:'Fuga commodi laboriosam suscipit earum consequuntur ratione ad minima fuga.' , u.name:Bradley
+p.post_id:58 , c.comment:'Facilis hic beatae assumenda corrupti aliquid qui quas.' , u.name:Kate
+p.post_id:58 , c.comment:'Fugit est atque dignissimos nemo id quaerat officiis.' , u.name:Margarita
+p.post_id:58 , c.comment:'Atque in facere dolor.' , u.name:Andre
+
+#3: Lista de posts com mais de 2 comentários
+p.post_id:22 , num_comments:3
+p.post_id:25 , num_comments:3
+p.post_id:35 , num_comments:4
+p.post_id:42 , num_comments:4
+p.post_id:43 , num_comments:4
+p.post_id:51 , num_comments:3
+p.post_id:58 , num_comments:5
+p.post_id:99 , num_comments:3
+
+#4: Lista de posts feitos depois de Novembro de 2023
+p.post_id:56 , p.created_at:2023-11-02
+p.post_id:81 , p.created_at:2023-11-02
+p.post_id:99 , p.created_at:2023-11-02
+p.post_id:41 , p.created_at:2023-11-05
+p.post_id:44 , p.created_at:2023-11-06
+p.post_id:32 , p.created_at:2023-11-07
+p.post_id:48 , p.created_at:2023-11-08
+p.post_id:85 , p.created_at:2023-11-08
+p.post_id:75 , p.created_at:2023-11-10
+p.post_id:61 , p.created_at:2023-11-11
+p.post_id:3 , p.created_at:2023-11-12
+p.post_id:72 , p.created_at:2023-11-15
+p.post_id:62 , p.created_at:2023-11-16
+p.post_id:28 , p.created_at:2023-11-21
+p.post_id:95 , p.created_at:2023-11-23
+p.post_id:65 , p.created_at:2023-11-25
+p.post_id:10 , p.created_at:2023-11-26
+p.post_id:78 , p.created_at:2023-11-26
+p.post_id:73 , p.created_at:2023-11-28
+p.post_id:1 , p.created_at:2023-11-29
+p.post_id:25 , p.created_at:2023-11-30
+p.post_id:79 , p.created_at:2023-12-02
+p.post_id:45 , p.created_at:2023-12-04
+p.post_id:86 , p.created_at:2023-12-06
+p.post_id:96 , p.created_at:2023-12-07
+p.post_id:34 , p.created_at:2023-12-08
+p.post_id:68 , p.created_at:2023-12-08
+p.post_id:63 , p.created_at:2023-12-09
+p.post_id:83 , p.created_at:2023-12-09
+p.post_id:8 , p.created_at:2023-12-10
+p.post_id:7 , p.created_at:2023-12-11
+p.post_id:19 , p.created_at:2023-12-12
+
+#5: Lista dos 20 comentários mais recentes
+c.comment_id:86 , c.created_at:2023-12-12
+c.comment_id:24 , c.created_at:2023-12-09
+c.comment_id:9 , c.created_at:2023-12-09
+c.comment_id:16 , c.created_at:2023-12-08
+c.comment_id:28 , c.created_at:2023-12-04
+c.comment_id:32 , c.created_at:2023-12-04
+c.comment_id:73 , c.created_at:2023-11-30
+c.comment_id:85 , c.created_at:2023-11-28
+c.comment_id:74 , c.created_at:2023-11-28
+c.comment_id:27 , c.created_at:2023-11-27
+c.comment_id:90 , c.created_at:2023-11-27
+c.comment_id:83 , c.created_at:2023-11-26
+c.comment_id:29 , c.created_at:2023-11-26
+c.comment_id:22 , c.created_at:2023-11-25
+c.comment_id:3 , c.created_at:2023-11-25
+c.comment_id:81 , c.created_at:2023-11-25
+c.comment_id:98 , c.created_at:2023-11-22
+c.comment_id:23 , c.created_at:2023-11-20
+c.comment_id:37 , c.created_at:2023-11-20
+c.comment_id:60 , c.created_at:2023-11-19
+
+#6: Lista de users com a mesma localização que comentaram o mesmo post
+u.name:Naomi , u2.name:Bradley , u.location:West Florida , c.post_id:35
+u.name:Eileen , u2.name:Bradley , u.location:West Florida , c.post_id:35
+u.name:Bradley , u2.name:Naomi , u.location:West Florida , c.post_id:35
+u.name:Eileen , u2.name:Naomi , u.location:West Florida , c.post_id:35
+u.name:Bradley , u2.name:Eileen , u.location:West Florida , c.post_id:35
+u.name:Naomi , u2.name:Eileen , u.location:West Florida , c.post_id:35
+u.name:Victoria , u2.name:Carroll , u.location:Tampa , c.post_id:51
+u.name:Carroll , u2.name:Victoria , u.location:Tampa , c.post_id:51
+
+#7: User que fez mais posts
+u.name:Ruby , num_posts:4
+
+#8: Lista de posts com comentários feitos por users com idade entre os 20 e 30 anos
+p.post_id:36 , u.name:Joan , u.age:21 , c.comment:'Sit molestiae occaecati dolorum hic similique perferendis iste ad.'
+p.post_id:35 , u.name:Ervin , u.age:21 , c.comment:'Quos officiis placeat provident voluptate.'
+p.post_id:52 , u.name:Joan , u.age:21 , c.comment:'Quis esse itaque recusandae neque fuga explicabo beatae numquam.'
+p.post_id:48 , u.name:Joan , u.age:21 , c.comment:'Enim modi omnis et.'
+p.post_id:97 , u.name:Ervin , u.age:21 , c.comment:'Inventore voluptate eveniet soluta nulla ut totam quisquam culpa.'
+p.post_id:1 , u.name:Tyrone , u.age:21 , c.comment:'Consequatur tenetur assumenda eius et quam quibusdam soluta voluptatibus.'
+p.post_id:9 , u.name:Joan , u.age:21 , c.comment:'Repudiandae veniam sapiente minima necessitatibus sapiente iste ipsam aperiam.'
+p.post_id:43 , u.name:Glenn , u.age:22 , c.comment:'Illum quasi eveniet totam vero.'
+p.post_id:4 , u.name:Glenn , u.age:22 , c.comment:'Aspernatur tenetur animi eligendi totam aperiam qui recusandae dolorum.'
+p.post_id:78 , u.name:Glenn , u.age:22 , c.comment:'Fugiat rerum delectus voluptatum occaecati consectetur aliquam dolorem distinctio minima.'
+p.post_id:47 , u.name:Kendra , u.age:25 , c.comment:'Vero sunt fugiat accusamus suscipit.'
+p.post_id:81 , u.name:Kendra , u.age:25 , c.comment:'Sequi facere ipsum minus totam doloribus provident hic id facilis.'
+p.post_id:76 , u.name:Kendra , u.age:25 , c.comment:'Repellendus neque natus delectus eius doloremque mollitia error minus.'
+p.post_id:51 , u.name:Edward , u.age:26 , c.comment:'Doloremque impedit enim cupiditate vitae maiores at.'
+p.post_id:35 , u.name:Naomi , u.age:30 , c.comment:'Quos eum omnis.'
+
+#9: Lista de users que publicaram um post e comentaram esse mesmo post
+u.user_id:62 , u2.user_id:62 , p.post_id:4 , c.comment:'Aspernatur tenetur animi eligendi totam aperiam qui recusandae dolorum.'
+u.user_id:69 , u2.user_id:69 , p.post_id:33 , c.comment:'Quibusdam non necessitatibus voluptatum cupiditate eum sit amet.'
+
+#10: Número de users que não fizeram nenhum comentário
+num_users:246

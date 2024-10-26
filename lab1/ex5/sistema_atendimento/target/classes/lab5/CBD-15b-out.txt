@@ -1,0 +1,69 @@
+Hi! Insert user name: (exit to leave)
+sara
+Your current products and quantities: 
+Choose your product: 
+bolo
+How many of that?: 
+2
+Your current products and quantities: 
+bolo - 2
+Choose your product: 
+cafe
+How many of that?: 
+5
+Your current products and quantities: 
+cafe - 5
+bolo - 2
+Choose your product: 
+manga 
+How many of that?: 
+1
+Your current products and quantities: 
+cafe - 5
+manga - 1
+bolo - 2
+Choose your product: 
+pessego
+How many of that?: 
+3
+You already ordered 10 products! You can't order more for a little longer.
+----------------------------------------------------------------------------------
+Hi! Insert user name: (exit to leave)
+sara 
+Your current products and quantities: 
+Choose your product: 
+cafe
+How many of that?: 
+5
+Your current products and quantities: 
+cafe - 5
+Choose your product: 
+pessego
+How many of that?: 
+2
+Your current products and quantities: 
+cafe - 5
+pessego - 2
+Choose your product: 
+manga
+How many of that?: 
+1
+Your current products and quantities: 
+cafe - 5
+pessego - 2
+manga - 1
+Choose your product: 
+bolo
+How many of that?: 
+2
+Your current products and quantities: 
+manga - 1
+bolo - 2
+Choose your product: 
+casa
+How many of that?: 
+3
+Your current products and quantities: 
+casa - 3
+bolo - 2
+Choose your product: 

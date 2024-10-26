@@ -1,0 +1,152 @@
+#CBD - Lab201 - Sara Figueiredo Almeida
+
+* Installed MongoDB Community 
+
+* To start the mongodb process: sudo systemctl start mongod
+To verify the status of mongodb process: sudo systemctl status mongod
+To stop mongodb: sudo systemctl stop mongod
+To restart mongodb: sudo systemctl restart mongod
+
+* To properly use it : mongosh
+
+test> show dbs      
+admin   40.00 KiB
+config  60.00 KiB
+local   72.00 KiB
+
+test> db
+test
+
+test> use cbd
+switched to db cbd
+
+cbd> db
+cbd
+
+cbd> show dbs
+admin   40.00 KiB
+config  84.00 KiB
+local   72.00 KiB
+
+cbd> db.name.insert({"name": "lab2"})
+DeprecationWarning: Collection.insert() is deprecated. Use insertOne, insertMany, or bulkWrite.
+{
+  acknowledged: true,
+  insertedIds: { '0': ObjectId("651b41d0c4ec79a7e379cb61") }
+}
+cbd> show dbs
+admin   40.00 KiB
+cbd      8.00 KiB
+config  72.00 KiB
+local   72.00 KiB
+
+cbd> db.dropDatabase()
+{ ok: 1, dropped: 'cbd' }
+
+cbd> show dbs
+admin   40.00 KiB
+config  72.00 KiB
+local   72.00 KiB
+
+cbd> use test
+switched to db test
+
+test> db.createCollection("mycollection")
+{ ok: 1 }
+
+test> show collections
+mycollection
+
+test> system.indexes
+ReferenceError: system is not defined
+
+test> use cbd
+switched to db cbd
+
+cbd> db.createCollection("mycollection2")
+{ ok: 1 }
+
+cbd> use test
+switched to db test
+
+test> db.createCollection("mycol", { capped: true, size: 6142800, max: 10000 })
+{ ok: 1 }
+
+test> show collections
+mycol
+mycollection
+
+test> db.tutorialspoint.insert({"name":"tutorialspoint"})
+{
+  acknowledged: true,
+  insertedIds: { '0': ObjectId("651b48625e17fb083e70dd17") }
+}
+
+test> show collections
+mycol
+mycollection
+tutorialspoint
+
+test> db.mycol.drop()
+true
+
+test> show collections
+mycollection
+tutorialspoint
+
+* about datatypes in mongodb: https://www.tutorialspoint.com/mongodb/mongodb_datatype.html
+
+test> db.createCollection("post")
+{ ok: 1 }
+test> db.post.insert([
+... 	{
+... 		title: "MongoDB Overview",
+... 		description: "MongoDB is no SQL database",
+... 		by: "tutorials point",
+... 		url: "http://www.tutorialspoint.com",
+... 		tags: ["mongodb", "database", "NoSQL"],
+... 		likes: 100
+... 	},
+... 	{
+... 	title: "NoSQL Database",
+... 	description: "NoSQL database doesn't have tables",
+... 	by: "tutorials point",
+... 	url: "http://www.tutorialspoint.com",
+... 	tags: ["mongodb", "database", "NoSQL"],
+... 	likes: 20,
+... 	comments: [
+... 		{
+... 			user:"user1",
+... 			message: "My first comment",
+... 			dateCreated: new Date(2013,11,10,2,35),
+... 			like: 0
+... 		}
+... 	]
+... }
+... ])
+DeprecationWarning: Collection.insert() is deprecated. Use insertOne, insertMany, or bulkWrite.
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("652b1efdbf15cb34674f8b7c"),
+    '1': ObjectId("652b1efdbf15cb34674f8b7d")
+  }
+}
+
+
+test> db.createCollection("empDetails")
+{ ok: 1 }
+test> db.empDetails.insertOne(
+... 	{
+... 		First_Name: "Radhika",
+... 		Last_Name: "Sharma",
+... 		Date_Of_Birth: "1995-09-26",
+... 		e_mail: "radhika_sharma.123@gmail.com",
+... 		phone: "9848022338"
+... 	})
+{
+  acknowledged: true,
+  insertedId: ObjectId("652b1f4bbf15cb34674f8b81")
+}
+
+...

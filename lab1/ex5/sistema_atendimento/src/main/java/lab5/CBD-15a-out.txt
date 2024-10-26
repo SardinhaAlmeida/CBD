@@ -1,0 +1,97 @@
+Hi! Insert user name: (exit to leave)
+sara
+Your current products: 
+[]
+Choose your product: 
+1
+Your current products: 
+[1]
+Choose your product: 
+2
+Your current products: 
+[1, 2]
+Choose your product: 
+5
+Your current products: 
+[]
+Choose your product: 
+2
+Your current products: 
+[2]
+Choose your product: 
+3
+Your current products: 
+[2, 3]
+Choose your product: 
+4
+Your current products: 
+[3, 4]
+Choose your product: 
+3
+Your current products: 
+[4, 3]
+Choose your product: 
+5
+Your current products: 
+[3, 5]
+Choose your product: 
+6
+Your current products: 
+[3, 5, 6]
+Choose your product: 
+7
+Your current products: 
+[3, 5, 6, 7]
+Choose your product: 
+8
+Your current products: 
+[3, 5, 6, 7, 8]
+Choose your product: 
+1
+Your current products: 
+[5, 6, 7, 8, 1]
+Choose your product: 
+-----------------------------------------
+Hi! Insert user name: (exit to leave)
+sara
+Your current products: 
+[]
+Choose your product: 
+1
+Your current products: 
+[1]
+Choose your product: 
+2
+Your current products: 
+[1, 2]
+Choose your product: 
+3
+Your current products: 
+[1, 2, 3]
+Choose your product: 
+4
+Your current products: 
+[1, 2, 3, 4]
+Choose your product: 
+5
+Your current products: 
+[1, 2, 3, 4, 5]
+Choose your product: 
+6
+Your current products: 
+[1, 2, 3, 4, 5, 6]
+Choose your product: 
+7
+Your current products: 
+[1, 2, 3, 4, 5, 6, 7]
+Choose your product: 
+8
+Your current products: 
+[1, 2, 3, 4, 5, 6, 7, 8]
+Choose your product: 
+9
+Your current products: 
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+Choose your product: 
+0
+You already ordered 10 products! You can't order more for a little longer.

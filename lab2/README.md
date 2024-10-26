@@ -1,0 +1,1 @@
+A pasta ex3 é um projeto maven que contém ambos os exercícios 3 e 4.

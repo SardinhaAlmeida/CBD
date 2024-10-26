@@ -1,0 +1,23 @@
+//alínea b
+cbd> db.phones.count()
+200000
+
+cbd> db.phones.find({ display: { $regex: /^\+351-22019999/ } })
+[
+  {
+    _id: 351220199992,
+    components: { country: 351, prefix: 22, number: 199992 },
+    display: '+351-220199992'
+  },
+  {
+    _id: 351220199993,
+    components: { country: 351, prefix: 22, number: 199993 },
+    display: '+351-220199993'
+  },
+  {
+    _id: 351220199997,
+    components: { country: 351, prefix: 22, number: 199997 },
+    display: '+351-220199997'
+  }
+]
+

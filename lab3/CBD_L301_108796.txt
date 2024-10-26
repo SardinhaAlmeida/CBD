@@ -1,0 +1,26 @@
+cqlsh> CREATE KEYSPACE tutorialspoint WITH replication = {'class':'SimpleStrategy', 'replication_factor' : 3};
+
+cqlsh> Describe keyspaces;
+
+system       system_distributed  system_traces  system_virtual_schema
+system_auth  system_schema       system_views   tutorialspoint
+______________________________________________________________________________________________________________________________
+cqlsh> CREATE KEYSPACE test WITH REPLICATION = { 'class' : 'NetworkTopologyStrategy', 'datacenter1' : 3 } AND DURABLE_WRITES = false;
+
+cqlsh> SELECT * FROM system_schema.keyspaces;
+
+ keyspace_name      | durable_writes | replication
+--------------------+----------------+---------------------------------------------------------------------------------------
+               test |          False | {'class': 'org.apache.cassandra.locator.NetworkTopologyStrategy', 'datacenter1': '3'}
+        system_auth |           True |   {'class': 'org.apache.cassandra.locator.SimpleStrategy', 'replication_factor': '1'}
+      system_schema |           True |                               {'class': 'org.apache.cassandra.locator.LocalStrategy'}
+     tutorialspoint |           True |   {'class': 'org.apache.cassandra.locator.SimpleStrategy', 'replication_factor': '3'}
+ system_distributed |           True |   {'class': 'org.apache.cassandra.locator.SimpleStrategy', 'replication_factor': '3'}
+             system |           True |                               {'class': 'org.apache.cassandra.locator.LocalStrategy'}
+      system_traces |           True |   {'class': 'org.apache.cassandra.locator.SimpleStrategy', 'replication_factor': '2'}
+
+___________________________________________________________________________________________________________________________________
+
+cqlsh> USE tutorialspoint;
+cqlsh:tutorialspoint>
+___________________________________________________________________________________________________________________________________
